@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<!-- o atributo "name" pode ser qualquer um e não o nome do client service
+	     o atributo "implementation" precisa ser o FQN da classe que implementa a interface webservice 
+	-->
+	<endpoint name="xxx"
+			  implementation="br.com.caelum.estoque.ws.EstoqueWSClient"
+			  url-pattern="/teste" />
+</endpoints>
